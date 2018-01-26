@@ -1,6 +1,5 @@
 var express = require('express'),
   app = express(),
-  bodyParser = require('body-parser'),
   routes = require('./api/routes/routes')
   port = process.env.PORT || 3000;
 
@@ -10,4 +9,4 @@ app.set('views', __dirname + '/api/views');
 app.set('view engine', 'pug');
 app.listen(port);
 
-console.log('CareerAxiom Node test assignment: ' + port);
+console.log('Node test running: ' + port);
